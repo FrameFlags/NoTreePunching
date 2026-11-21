@@ -1,0 +1,14 @@
+[{
+  "modid": "itamiotreepunch",
+  "name": "No Tree Punching \u2014 Itamio Port",
+  "description": "Blocks drop nothing when broken by hand - use the correct tool. Configurable hand-harvest whitelist.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/alcatrazEscapee/no-tree-punching",
+  "updateUrl": "",
+  "authorList": ["Sekai0NI0itamio"],
+  "credits": "Port of No Tree Punching by alcatrazEscapee (MIT). See CREDITS.md.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
