@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "itamiotreepunch",
+  "version": "${version}",
+  "name": "No Tree Punching — Itamio Port",
+  "description": "Blocks drop nothing when broken by hand - use the correct tool. Configurable hand-harvest whitelist. Port of No Tree Punching by alcatrazEscapee (MIT).",
+  "authors": [
+    "Sekai0NI0itamio"
+  ],
+  "contact": {
+    "homepage": "https://github.com/alcatrazEscapee/no-tree-punching",
+    "sources": "https://github.com/FrameFlags/NoTreePunching",
+    "issues": "https://github.com/FrameFlags/NoTreePunching/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "itamio.iamnotreepunching.NoTreePunchingMod"
+    ]
+  },
+  "mixins": [
+    "itamiotreepunch.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
